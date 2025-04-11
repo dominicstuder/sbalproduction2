@@ -1,0 +1,25 @@
+
+.pageWrapper {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  position: relative;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  transition-delay: 1s;
+}
+
+.main{
+  opacity: 0;
+}
+
+.fadeIn .main{
+  opacity: 1;
+}
+
