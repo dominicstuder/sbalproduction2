@@ -7,10 +7,12 @@ const nextConfig: NextConfig = {
 
 // next.config.js
 module.exports = {
+  
   reactStrictMode: true,
   images: {
     domains: ['byandlarge.studio'], // optional
   },
+    target: 'serverless'
 };
 
 
