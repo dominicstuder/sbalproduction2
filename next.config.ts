@@ -5,8 +5,12 @@ const nextConfig: NextConfig = {
   
 };
 
+// next.config.js
 module.exports = {
-  output: 'export',
+  reactStrictMode: true,
+  images: {
+    domains: ['byandlarge.studio'], // optional
+  },
 };
 
 
